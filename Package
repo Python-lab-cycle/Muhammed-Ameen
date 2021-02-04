@@ -47,8 +47,8 @@ def RectPerimeter(l,b):
     
     
     
-    def CubArea(l,w,h):
-    return (2*l*w)+(2*l*h)+(2*h*w)
+    def CubArea(l,b,h):
+    return (2*l*b)+(2*l*h)+(2*h*w)
 def CubPerimeter(l,b,h):
     return 4*(l+b+h)
     
